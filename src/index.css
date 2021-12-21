@@ -7,3 +7,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --font-family-primary: "Inter", sans-serif;
+  --font-family-secondary: "Quicksand", sans-serif;
+  --primary-color: #6c63ff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
