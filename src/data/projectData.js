@@ -38,7 +38,7 @@ const projectData = [
     source: "https://github.com/Sreejan-22/pixdeck",
   },
   {
-    id: 5,
+    id: 6,
     name: "Portfolio",
     description: "My portfolio website",
     live: "http://localhost:3000",
