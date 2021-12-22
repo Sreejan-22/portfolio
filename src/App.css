@@ -6,6 +6,9 @@
 
 .navbar {
   /* font-family: var(--font-family-secondary); */
+  position: sticky;
+  top: 0px;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +39,10 @@
   color: var(--primary-color);
 }
 
+.hamburger {
+  display: none;
+}
+
 .hero-section {
   width: 100%;
   display: flex;
@@ -56,6 +63,7 @@
 .hero-left > h3 {
   color: #a2a2a3;
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .hero-links button {
@@ -86,10 +94,10 @@
   padding-top: 3rem;
 }
 
-.project-section > h1 {
+/* .project-section > h1 {
   font-size: 2.5rem;
   padding-bottom: 3rem;
-}
+} */
 
 .project-container {
   width: 100%;
@@ -104,10 +112,10 @@
   padding: 10rem 0rem 7rem 0rem;
 }
 
-.skills-section > h1 {
+/* .skills-section > h1 {
   font-size: 2.5rem;
   padding-bottom: 3rem;
-}
+} */
 
 .skills {
   display: grid;
@@ -132,10 +140,10 @@
   padding: 10rem 0rem;
 }
 
-.contact-section > h1 {
+/* .contact-section > h1 {
   font-size: 2.5rem;
   padding-bottom: 3rem;
-}
+} */
 
 .contact-section > h3 {
   font-size: 1.2rem;
@@ -157,7 +165,7 @@ footer {
   padding: 3rem 0rem;
   background-color: rgb(18, 18, 18);
   width: 100vw;
-  height: 50px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,4 +178,89 @@ footer > h4 {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1366px) {
+  .app-content {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 1266px) {
+  .app-content {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  /* .hero-section {
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .hero-left {
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero-left > h3 {
+    text-align: center;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .app-content {
+    width: 85vw;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-links > a {
+    margin: 1rem 0rem;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+  .hero-section {
+    padding: 3rem 0rem;
+  }
+
+  .hero-left > h1 {
+    font-size: 2rem;
+  }
+
+  .hero-left > h3 {
+    font-size: 0.85rem;
+  }
 }

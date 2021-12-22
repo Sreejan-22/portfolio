@@ -17,24 +17,43 @@
   color: grey;
 }
 
+.project-links {
+  display: flex;
+  align-items: center;
+}
+
 .project-links * {
   cursor: pointer;
 }
 
 .project-links button {
-  padding: 0.5rem;
+  padding: 0.7rem;
   background-color: black;
   color: #edf2f7;
   font-size: 1rem;
   font-weight: 500;
+  display: flex;
+  align-items: center;
   border-radius: 4px;
+}
+
+.project-links button > svg {
+  font-size: 1.2em;
 }
 
 .project-links *:hover {
   background-color: #edf2f7;
   color: black;
-  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0.2s; */
+  border-radius: 4px;
   transition: ease-in-out;
   transition-delay: 0.1s;
+}
+
+@media screen and (max-width: 767px) {
+  .project-card {
+    padding: 1rem;
+  }
+  .project-card > h1 {
+    font-size: 1.75rem;
+  }
 }

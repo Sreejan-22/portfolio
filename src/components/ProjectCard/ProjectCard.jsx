@@ -1,3 +1,5 @@
+import { AiOutlineGithub } from "react-icons/ai";
+import { BiLinkExternal } from "react-icons/bi";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ name, description, live, source }) => {
@@ -7,11 +9,17 @@ const ProjectCard = ({ name, description, live, source }) => {
       <p>{description}</p>
       <div className="project-links">
         <a href={live} target="_blank" rel="noreferrer">
-          <button>View Live</button>
+          <button>
+            <BiLinkExternal />
+            &nbsp;View Live
+          </button>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href={source} target="_blank" rel="noreferrer">
-          <button>View Source</button>
+          <button>
+            <AiOutlineGithub />
+            &nbsp; View Source
+          </button>
         </a>
       </div>
     </div>
