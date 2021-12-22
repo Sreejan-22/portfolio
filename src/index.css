@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+:root {
+  --font-family-primary: "Inter", sans-serif;
+  --font-family-secondary: "Quicksand", sans-serif;
+  --primary-color: #6c63ff;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -14,12 +20,7 @@ body {
   background-color: black;
   color: white;
   overflow-x: hidden;
-}
-
-:root {
-  --font-family-primary: "Inter", sans-serif;
-  --font-family-secondary: "Quicksand", sans-serif;
-  --primary-color: #6c63ff;
+  font-family: var(--font-family-primary);
 }
 
 a {

@@ -39,7 +39,6 @@ function App() {
             ) : (
               <FiMenu onClick={() => setActive(true)} />
             )}
-            {/* &nbsp;&nbsp;&nbsp;&nbsp; */}
           </span>
         </nav>
         <section className="hero-section">
@@ -47,8 +46,6 @@ function App() {
             <h1>Hey, I'm Sreejan! 👋</h1>
             <br />
             <h3>
-              {/* I am a full stack developer specializing in frontend. I am
-              enthusiastic about building impactful products. */}
               A full stack developer specializing in frontend
               <br />
               Enthusiastic about building impactful products
@@ -104,7 +101,6 @@ function App() {
         </section>
         <section className="contact-section" id="contact">
           <h1 className="section-heading">Contact</h1>
-          {/* <h3>Connect with me on any of these platforms</h3> */}
           <br />
           <br />
           <br />
