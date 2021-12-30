@@ -58,7 +58,7 @@ function App() {
                 <button>Let's talk</button>
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="#contact">
+              <a href="#contact" style={{ display: "none" }}>
                 <button>View Resume</button>
               </a>
             </div>
