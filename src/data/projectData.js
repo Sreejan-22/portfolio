@@ -41,7 +41,7 @@ const projectData = [
     id: 6,
     name: "Portfolio",
     description: "My portfolio website",
-    live: "http://localhost:3000",
+    live: "https://sreejan.netlify.app",
     source: "https://github.com/Sreejan-22/portfolio",
   },
 ];
