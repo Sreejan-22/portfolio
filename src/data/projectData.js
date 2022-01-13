@@ -9,6 +9,14 @@ const projectData = [
   },
   {
     id: 2,
+    name: "Hashloop",
+    description:
+      "A social media application for viewing and sharing software projects",
+    live: "https://hashloop.netlify.app",
+    source: "https://github.com/Sreejan-22/hashloop",
+  },
+  {
+    id: 3,
     name: "Quizzy",
     description:
       "A fun quiz application having quizzes on 3 different topics - sports, history, politics",
@@ -16,7 +24,7 @@ const projectData = [
     source: "https://github.com/Sreejan-22/quizzy",
   },
   {
-    id: 3,
+    id: 4,
     name: "Comfysloth",
     description:
       "An online furniture store for buying furniture of impeccable quality and elegant design",
@@ -24,25 +32,18 @@ const projectData = [
     source: "https://github.com/Sreejan-22/comfysloth",
   },
   {
-    id: 4,
+    id: 5,
     name: "Smart Notes",
     description: "A note taking web app",
     live: "https://smart-notes.netlify.app",
     source: "https://github.com/Sreejan-22/smart-notes",
   },
   {
-    id: 5,
+    id: 6,
     name: "Pixdeck",
     description: "A photo search application for searching high quality photos",
     live: "https://pixdeck.netlify.app",
     source: "https://github.com/Sreejan-22/pixdeck",
-  },
-  {
-    id: 6,
-    name: "Portfolio",
-    description: "My portfolio website",
-    live: "https://sreejan.xyz",
-    source: "https://github.com/Sreejan-22/portfolio",
   },
 ];
 
