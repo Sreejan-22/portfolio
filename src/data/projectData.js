@@ -1,19 +1,19 @@
 const projectData = [
   {
     id: 1,
-    name: "Crictube",
-    description:
-      "A video library application containing curated videos on cricket",
-    live: "https://crictube.netlify.app",
-    source: "https://github.com/Sreejan-22/crictube",
-  },
-  {
-    id: 2,
     name: "Hashloop",
     description:
       "A social media application for viewing and sharing software projects",
     live: "https://hashloop.netlify.app",
     source: "https://github.com/Sreejan-22/hashloop",
+  },
+  {
+    id: 2,
+    name: "Crictube",
+    description:
+      "A video library application containing curated videos on cricket",
+    live: "https://crictube.netlify.app",
+    source: "https://github.com/Sreejan-22/crictube",
   },
   {
     id: 3,
@@ -33,17 +33,17 @@ const projectData = [
   },
   {
     id: 5,
+    name: "Splashit",
+    description: "A photo search application for searching high quality photos",
+    live: "https://splashit.netlify.app",
+    source: "https://github.com/Sreejan-22/pixdeck",
+  },
+  {
+    id: 6,
     name: "Smart Notes",
     description: "A note taking web app",
     live: "https://smart-notes.netlify.app",
     source: "https://github.com/Sreejan-22/smart-notes",
-  },
-  {
-    id: 6,
-    name: "Pixdeck",
-    description: "A photo search application for searching high quality photos",
-    live: "https://pixdeck.netlify.app",
-    source: "https://github.com/Sreejan-22/pixdeck",
   },
 ];
 
